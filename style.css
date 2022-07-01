@@ -106,3 +106,35 @@ ul {
   align-self: center;
   margin-left: 40%;
 }
+
+.popup{
+  border-radius: 25px;
+  padding: 1%;
+  background-color: #3882f6;
+  color: aliceblue;
+  margin: 2%;
+  display: flex;
+}
+.popupText{
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  flex-wrap: wrap;
+}
+.popupTitle{
+  justify-self: start;
+  align-self: flex-start;
+  font-weight: bold;
+}
+.popupMessage{
+  justify-self: flex-end;
+  align-self: end;
+}
+.footer {
+  padding: 20px;
+  background: #1F2937;
+    color: white;
+    display: flex;
+  align-items: stretch;
+  justify-content: stretch;
+}
